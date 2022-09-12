@@ -1,0 +1,426 @@
+body{
+    display: block;
+    margin: 8px;
+}
+
+.left img{
+   
+    width: 66px;
+    z-index: 100%;
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    left: -1px;
+    top: 0px;
+}
+
+
+.right{
+    position: absolute;
+    display:inline-block;
+    right: 12px;
+    top: 33px;
+
+}
+
+.btn{
+    margin: 0px 11px 0px -5px;
+    padding: 8px;
+    border: 3px rgb(73 200 178);
+    color: rgb(14 9 9);
+    background-color: rgb(68 206 206);
+    border-radius: 12px;
+     }
+
+
+.btn:hover{
+     background-color: gray;
+} 
+
+
+.navbar{
+
+    display: inline block;
+
+}
+
+.navbar li{
+        
+    display: inline-block;
+    font-size: 19px;
+    padding: 1px 18px 42px 0px;
+    /* padding-top: 0%; */
+    margin-top: 0%;
+    margin-bottom: -8px;
+    margin-left: 25px;
+    
+}
+
+
+
+.navbar li a{
+    margin-left: -32px;
+    border: 2px solid rgb(14, 9, 9);
+    font-style: courier;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 16px 0px 3px;
+    color:rgb(18, 246, 238)
+
+}
+
+.navbar li a:hover, .navbar li a.active{
+    background-color: rgba(128, 128, 128, 0.615);
+    color: rgb(99, 252, 252);
+}
+
+
+.bgimg{
+    
+    width: 202px;
+    padding: 161px;
+    margin: -707px 0px 0px 615px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+    
+
+.bgimg{
+    background-color: black;
+}
+
+.img2{
+width: 47px;
+padding: 0px;
+margin: 0px 0px 0px 1px;
+background-repeat :no-repeat;
+background-size: cover;
+z-index: 1;
+
+
+}
+
+
+
+ .header{
+    color: aliceblue;
+    width: 100%;
+    z-index: 10000;
+    height: auto;
+    border:2px solid black;
+    margin: -9px 38px 4px 0px;
+    padding: 16px 0px 0px 0px;
+    background-color: black;
+
+    
+ }
+
+ .aboutgym{
+    color: black;
+   border: 2px solid black;
+   border-radius: 20px 0px 0px -1px;
+   margin:-21px -4px -2px 0px;
+   padding: 0px 0px 0px 0px;
+   width: 0pxs;
+   text-align: center;
+   background-color: yellow;
+   display: block;
+
+}
+
+
+.aabout{
+   border: 11px solid #15fdcb;;
+   padding: 187px 97px 223px 96px;
+    margin: 4px 31px 0px 8px;
+    width: 378px;
+    /* height: auto; */
+    color: black;
+    left: 0px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: aquamarine;
+    border-radius: 0px 188px 0px 188px;
+    animation: change 10s infinite ease-in-out;
+}
+
+@keyframes change{
+    0%{
+        background-image: url(img1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    30%{
+        background-image: url(img2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    60%{
+        background-image: url(img3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    90%{
+        background-image: url(img4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+.join{
+    padding: 26px 9px 10px 0px;
+    margin: -31px 0px 0px 0px;
+    color: black;
+}
+
+.about{
+    padding: 0px 0px 11px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.ihead{
+    padding: 5px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.bottom{
+    color: aliceblue;
+    width: 100%;
+    z-index: 10000;
+    height: auto;
+    border:2px solid rgb(255, 250, 250);
+    margin: -81px 0px 0px 0px;
+    padding: 0px 23px 0px -30px;
+    background-color: black;
+}
+
+.logo img{
+    width: 44px;
+   
+    
+}
+ 
+.logo{
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+    top: 99px;
+}
+
+
+
+.list{
+    background-color: black;
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    background-position: center;
+    font-size: large;
+    border: 1px solid white;
+    margin-top: -86px;
+    padding: 10px;
+}
+
+ 
+.dropdown{
+    background-color: black;
+    text-decoration: none;
+    color: aliceblue;
+    border: 0px;
+    text-decoration: none;
+    right: 0px;
+    font-size: medium;
+}
+ 
+.dropdown1{
+    background-color: black;
+    text-decoration: none;
+    color: aliceblue;
+    border: 0px;
+    text-decoration: none;
+    padding: 0px 0px 0px 0px;
+    font-size: medium;
+}
+ 
+.dropdown2{
+    background-color: black;
+    text-decoration: none;
+    color: aliceblue;
+    border: 0px;
+    text-decoration: none;
+    padding: 0px 0px 0px 0px;
+    font-size: medium;
+}
+ 
+.dropdown3{
+    background-color: black;
+    text-decoration: none;
+    color: aliceblue;
+    border: 0px;
+    text-decoration: none;
+    padding: 0px 0px 0px 0px;
+    font-size: medium;
+}
+ 
+
+.list li{
+    display: inline-flex;
+    list-style: none;
+    width: 186px;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+.f{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.g{
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+.container{
+    border: 5px solid rgb(243, 237, 237);
+    border-radius: 0px 101px 0px 101px;
+    background-color: black;
+    margin: -670px 1px 2px 89px;;
+    padding:37px 97px 39px 97px;
+    text-align: center;
+    position: relative;
+    width: 205px;
+} 
+
+
+.form-group input{
+    color: rgb(9, 8, 6);
+    font-family: 'baloo bhai', cursive;
+    font-size: 13px;
+    text-align: center;
+    display: block;
+    width: 200px;
+    padding: 6px;
+    border: 2px solid rgb(12, 12, 12);
+    margin: 2px opx;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+
+   .form-group:hover{
+    color: aquamarine;
+   }
+
+
+.form-group{
+    color: aliceblue;
+    font-family: 'baloo bhai', cursive;
+    font-size: 13px;
+    text-align: center;
+    display: block;
+    width: 200px;
+    padding: 6px 0px 0px 0px;
+    border: 2px solid rgb(12, 12, 12);
+    margin: 2px 0px 0px 0px;
+    border-radius: 8px;
+}
+
+.sbtn{
+    margin: 5px 0px 0px 0px;
+    border: -21px;
+    padding: 3px;
+    color: black;
+    background-color: aliceblue;  
+    text-align: center;
+    border-radius: 2pxs;
+}
+
+.sbtn:hover{
+    background-color: rgba(85, 208, 147, 0.707);
+}
+
+
+.logo2{
+    color: aliceblue;
+    padding: 2px;
+    margin: 0px 0px 28px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    font-size:25px;
+}
+
+
+.thirdrow{
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    width: 760px;
+    margin:-724px 0px 0px 372px;;
+    padding: 1px 0px 1px 0px;
+    position: relative;
+}
+
+
+.hd1{
+    color: yellow;
+    
+    
+}
+.hd2{
+    color: orangered;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.img3{
+    margin: 80px 0px 0px 0px;
+
+}
+
+
+.img4{
+
+    position: relative;
+    margin: -462px 0px 0px 0px;
+    padding: 24px 0px 24px 218px;
+    z-index: 29;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    border: black solid 2px;
+    background-color: rgba(0, 0, 0, 0.219);
+
+   
+}
+
+
+
+.border{
+    margin:95px 0px -79px 1px;
+    padding: 0px 0px 0px 0pxs;
+    color: aliceblue;
+    border: 4px solid rgb(253, 250, 250);
+    background-color: rgba(7, 7, 7, 0.973);
+}
+
+
+.border:hover{
+    background-color:  rgb(4, 140, 133) ;
+}
+
+
+.abt{
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+    color: yellow;
+    width: 320px;
+    margin: -374px -20px 0px 743px;
+    text-align: center;
+}
